@@ -181,6 +181,7 @@ header{
 }
 .logo{
 	float:left;
+	/* background-color:#fff; */
 }
 
 .top-strip{
