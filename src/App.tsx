@@ -4,7 +4,7 @@ import './App.css';
 import Buku from "./components/Buku"
 function App() {
   return (
-    <div>
+    <div className="book">
       <Buku />
     </div>
   );
