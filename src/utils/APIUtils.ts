@@ -22,3 +22,19 @@ const request = (options : any) => {
         })
     );
 };
+
+export function login(loginRequest : any) {
+    return request({
+        url: API_BASE_URL + "/api/v1/auth/login",
+        method: 'POST',
+        body: JSON.stringify(loginRequest)
+    });
+}
+
+export function register(registerRequest : any) {
+    return request({
+        url: API_BASE_URL + "/api/v1/auth/register",
+        method: 'POST',
+        body: JSON.stringify(registerRequest)
+    });
+}
