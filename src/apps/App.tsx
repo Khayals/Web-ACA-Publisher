@@ -1,5 +1,5 @@
 import React from 'react';
-import { AboutPage, BookPage, LoginPage, RegisterPage } from '../pages/index';
+import { AboutPage, BookPage, LoginPage, RegisterPage, BerandaPage } from '../pages/index';
 import { Switch, Route, withRouter } from 'react-router-dom';
 import {
   BannerComponent,
@@ -10,7 +10,7 @@ import {
 
 import { LoadingCommon, PrivateCommon } from '../commons';
 
-function App () {
+function App() {
   return (
     <div>
       <LoadingCommon />
@@ -21,6 +21,7 @@ function App () {
         <div className='kode-content'>
           <Switch>
             <Route exact path='/' render={props => <AboutPage />} />
+            <Route path='/beranda' component={BerandaPage} />
             <Route path='/book' component={BookPage} />
             <Route path='/login' component={LoginPage} />
             <Route path='/register' component={RegisterPage} />
