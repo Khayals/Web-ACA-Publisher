@@ -18,7 +18,7 @@ import { LoadingCommon, PrivateCommon } from '../commons';
 
 function App () {
   const [state, setState] = useState({
-    userStatus: '',
+    userStatus: 'user',
     userInfo: '',
     isAuthenticated: false,
   });
@@ -42,7 +42,10 @@ function App () {
       </div>
     );
   } else if (state.userStatus === 'admin') {
-  } else {
+        return (
+            <div></div>
+        )
+    } else {
     return (
       <Switch>
         <Route path='/login' component={LoginPage} />
