@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Header() {
     return (
@@ -54,19 +55,19 @@ function Header() {
                   <div className="kode-navigation">
                     <ul>
                       <li>
-                        <a href="/">Beranda</a>
+                        <Link to="/">Beranda</Link>
                       </li>
                       <li>
-                        <a href="#">Buku</a>
+                        <Link to="/buku">Buku</Link>
                       </li>
                       <li>
-                        <a href="#">Tentang Kami</a>
+                        <Link to="/tentang-kami">Tentang Kami</Link>
                       </li>
                       <li>
-                        <a href="#">Daftar</a>
+                        <Link to="/daftar">Daftar</Link>
                       </li>
                       <li>
-                        <a href="#">Masuk</a>
+                        <Link to="/masuk">Masuk</Link>
                       </li>
                     </ul>
                   </div>

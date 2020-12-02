@@ -21,9 +21,9 @@ function App () {
         <div className='kode-content'>
           <Switch>
             <Route exact path='/' render={props => <AboutPage />} />
-            <Route path='/book' component={BookPage} />
-            <Route path='/login' component={LoginPage} />
-            <Route path='/register' component={RegisterPage} />
+            <Route path='/buku' component={BookPage} />
+            <Route path='/masuk' component={LoginPage} />
+            <Route path='/daftar' component={RegisterPage} />
           </Switch>
         </div>
         <FooterComponent />
