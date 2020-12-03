@@ -7,18 +7,12 @@ import {
   BerandaPage,
 } from '../pages/index';
 import { Switch, Route, withRouter } from 'react-router-dom';
-import {
-  BannerComponent,
-  FooterComponent,
-  HeaderComponent,
-  SearchComponent,
-} from '../components';
 
 import { LoadingCommon, PrivateCommon } from '../commons';
 
 function App () {
   const [state, setState] = useState({
-    userStatus: 'user',
+    userStatus: '',
     userInfo: '',
     isAuthenticated: false,
   });
@@ -26,30 +20,23 @@ function App () {
     return (
       <div>
         <LoadingCommon />
-        <div className='wrapper kode-header-class-3'>
-          <HeaderComponent />
-          <BannerComponent />
-          <SearchComponent />
-          <div className='kode-content'>
-            <Switch>
-              <Route exact path='/' render={props => <AboutPage />} />
-              <Route path='/beranda' component={BerandaPage} />
-              <Route path='/book' component={BookPage} />
-            </Switch>
-          </div>
-          <FooterComponent />
-        </div>
+        <Switch>
+          <Route exact path='/' component={BerandaPage} />
+          <Route path='/tentang-kami' render={props => <AboutPage />} />
+          <Route path='/buku' component={BookPage} />
+        </Switch>
       </div>
     );
   } else if (state.userStatus === 'admin') {
-        return (
-            <div></div>
-        )
-    } else {
+    return <div></div>;
+  } else {
     return (
       <Switch>
-        <Route path='/login' component={LoginPage} />
-        <Route path='/register' component={RegisterPage} />
+        <Route exact path='/' component={BerandaPage} />
+        <Route path='/tentang-kami' render={props => <AboutPage />} />
+        <Route path='/buku' component={BookPage} />
+        <Route path='/masuk' component={LoginPage} />
+        <Route path='/daftar' component={RegisterPage} />
       </Switch>
     );
   }

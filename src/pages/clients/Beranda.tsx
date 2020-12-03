@@ -1,151 +1,12 @@
 import React from 'react';
+import {
+  HeaderComponent,
+} from '../../components';
 
 const Beranda = () => {
   return (
-    <div>
-      <div id="loader-wrapper">
-        <div id="loader"></div>
-        <div className="loader-section section-left"></div>
-        <div className="loader-section section-right"></div>
-      </div>
       <div className="wapper kode-header-class-3">
-        {/* <!--HEADER START--> */}
-        <header className="header-3">
-          <div className="logo-container">
-            <div className="row">
-              <div className="col-md-3">
-                {/* <!--LOGO START--> */}
-                <div className="logo">
-                  <a href="#">
-                    <img src="/images/logo-4.png" alt="" />
-                  </a>
-                </div>
-                {/* <!--LOGO END--> */}
-              </div>
-              <div className="col-md-9">
-                <div className="top-strip">
-                  <div className="pull-left">
-                    <p>Welcome to ACA publisher</p>
-                  </div>
-                  <div className="social-icon">
-                    <a
-                      href="mailto:info@library-theme.com"
-                      className="pull-left"
-                    >
-                      info@acapublisher.com
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-google-plus"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-linkedin"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="kode-navigation">
-                  <ul>
-                    <li>
-                      <a href="index.html">Home</a>
-                    </li>
-
-                    <li>
-                      <a href="about-us.html">About Us</a>
-                    </li>
-                    <li>
-                      <a href="books.html">Our Books</a>
-                      <ul>
-                        <li>
-                          <a href="books3-sidebar.html">Book With Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="books-detail.html">Book Detail</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="authors.html">Authors</a>
-                      <ul>
-                        <li>
-                          <a href="authors.html">Authors</a>
-                        </li>
-                        <li>
-                          <a href="author-detail.html">Authors Detail</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="contact-us.html">Contact Us</a>
-                    </li>
-                    <li>
-                      <a href="contact-us.html">Login</a>
-                    </li>
-                    <li className="last">
-                      <a href="contact-us.html">Register</a>
-                    </li>
-                  </ul>
-                </div>
-                <div id="kode-responsive-navigation" className="dl-menuwrapper">
-                  <button className="dl-trigger">Open Menu</button>
-                  <ul className="dl-menu">
-                    <li className="menu-item kode-parent-menu">
-                      <a href="index.html">Home</a>
-                      <ul className="dl-submenu">
-                        <li>
-                          <a href="index-1.html">Home page 1</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="about-us.html">About Us</a>
-                    </li>
-                    <li className="menu-item kode-parent-menu">
-                      <a href="books.html">Our Books</a>
-                      <ul className="dl-submenu">
-                        <li>
-                          <a href="books3-sidebar.html">Book With Sidebar</a>
-                        </li>
-                        <li>
-                          <a href="books-detail.html">Book Detail</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item kode-parent-menu last">
-                      <a href="authors.html">Authors</a>
-                      <ul className="dl-submenu">
-                        <li>
-                          <a href="authors.html">Authors</a>
-                        </li>
-                        <li>
-                          <a href="author-detail.html">Authors Detail</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="last">
-                      <a href="contact-us.html">Contact Us</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-        {/* <!--HEADER END--> */}
+        <HeaderComponent />
         {/* <!--BANNER START--> */}
         <div className="kode-banner">
           <ul className="bxslider">
@@ -2434,7 +2295,6 @@ const Beranda = () => {
         </div>
         {/* <!--CONTENT END--> */}
       </div>
-    </div>
   );
 };
 

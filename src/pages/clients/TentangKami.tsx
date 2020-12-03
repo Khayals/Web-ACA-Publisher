@@ -1,8 +1,18 @@
 import React from 'react';
+import {
+  BannerComponent,
+  FooterComponent,
+  HeaderComponent,
+  SearchComponent,
+} from '../../components';
 
 const TentangKami = () => {
   return (
-    <>
+    <div className='wrapper kode-header-class-3'>
+      <HeaderComponent />
+      <BannerComponent />
+      <SearchComponent />
+      <div className='kode-content'>
         {/* BOOK GUIDE SECTION START */}
         <section className='kode-about-us-section'>
           <div className='container'>
@@ -27,11 +37,11 @@ const TentangKami = () => {
                   penulis-penulis hebat.
                 </p>
                 {/* <ul className="kd-list3">
-                            <li><a href="#">Consetetur sadipscing elitr sed diam nonumy eirmod</a></li>
-                            <li><a href="#">Sadipscing elitr sed diam nonumy eirmod</a></li>
-                            <li><a href="#">Consetetur elitr sed diam nonumy eirmod</a></li>
-                            <li><a href="#">Nonumy elitr sed diam nonumy eirmod</a></li>
-                        </ul> */}
+                          <li><a href="#">Consetetur sadipscing elitr sed diam nonumy eirmod</a></li>
+                          <li><a href="#">Sadipscing elitr sed diam nonumy eirmod</a></li>
+                          <li><a href="#">Consetetur elitr sed diam nonumy eirmod</a></li>
+                          <li><a href="#">Nonumy elitr sed diam nonumy eirmod</a></li>
+                      </ul> */}
               </div>
               <div className='col-md-6'>
                 <div className='about-thumb'>
@@ -438,7 +448,9 @@ const TentangKami = () => {
             </div>
           </div>
         </section>
-    </>
+      </div>
+      <FooterComponent />
+    </div>
   );
 };
 
