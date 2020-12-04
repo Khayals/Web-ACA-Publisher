@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Footer () {
+function Footer() {
   const creditYear = new Date();
   const footerUpdateYear = creditYear.getFullYear();
   return (
@@ -17,22 +17,22 @@ function Footer () {
                   <div className='social-icons'>
                     <ul>
                       <li>
-                        <a href='#'>
+                        <a href={"https://www.instagram.com/androcenta.publisher/"}>
                           <i className='fa fa-facebook'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href={"https://www.instagram.com/androcenta.publisher/"}>
                           <i className='fa fa-google-plus'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href={"https://www.instagram.com/androcenta.publisher/"}>
                           <i className='fa fa-twitter'></i>
                         </a>
                       </li>
                       <li>
-                        <a href='#'>
+                        <a href={"https://www.instagram.com/androcenta.publisher/"}>
                           <i className='fa fa-pinterest-p'></i>
                         </a>
                       </li>
@@ -64,22 +64,22 @@ function Footer () {
                 <h2>Information</h2>
                 <ul>
                   <li>
-                    <a href='#'>Specials</a>
+                    <a href='/'>Specials</a>
                   </li>
                   <li>
-                    <a href='#'>New products</a>
+                    <a href='/'>New products</a>
                   </li>
                   <li>
-                    <a href='#'>Best sellers</a>
+                    <a href='/'>Best sellers</a>
                   </li>
                   <li>
-                    <a href='#'>Contact us</a>
+                    <a href='/'>Contact us</a>
                   </li>
                   <li>
-                    <a href='#'>Terms of use</a>
+                    <a href='/'>Terms of use</a>
                   </li>
                   <li>
-                    <a href='#'>Sitemap</a>
+                    <a href='/'>Sitemap</a>
                   </li>
                 </ul>
               </div>
@@ -92,7 +92,7 @@ function Footer () {
                 <ul>
                   <li>
                     <div className='kode-thumb'>
-                      <a href='#'>
+                      <a href='/'>
                         <img src='/images/latest-news.png' alt='' />
                       </a>
                     </div>
@@ -103,7 +103,7 @@ function Footer () {
                   </li>
                   <li>
                     <div className='kode-thumb'>
-                      <a href='#'>
+                      <a href='/'>
                         <img src='/images/latest-news.png' alt='Latest News' />
                       </a>
                     </div>
@@ -114,7 +114,7 @@ function Footer () {
                   </li>
                   <li>
                     <div className='kode-thumb'>
-                      <a href='#'>
+                      <a href='/'>
                         <img src='/images/latest-news.png' alt='Latest News' />{' '}
                       </a>
                     </div>
@@ -125,7 +125,7 @@ function Footer () {
                   </li>
                   <li>
                     <div className='kode-thumb'>
-                      <a href='#'>
+                      <a href='/'>
                         <img src='/images/latest-news.png' alt='Latest News' />
                       </a>
                     </div>
@@ -144,47 +144,47 @@ function Footer () {
                 <h2>Flickr Gallery </h2>
                 <ul>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery1.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery2.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery3.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery4.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery5.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery6.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery4.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery5.png' alt='Galeri' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <img src='/images/gallery6.png' alt='Galeri' />
                     </a>
                   </li>
@@ -220,7 +220,7 @@ function Footer () {
                     <i className='fa fa-envelope-o'></i>
                     <div className='kode-text'>
                       <h4>Email Address</h4>
-                      <a href='#'>Info@androcenta.com</a>
+                      <a href='mailto:androcenta.publisher@gmail.com'>Info@androcenta.com</a>
                     </div>
                   </li>
                 </ul>

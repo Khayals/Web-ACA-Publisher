@@ -36,7 +36,7 @@ const Buku = () => {
                   </div>
                   <p>Dr.Machale</p>
                   <p className='price'>Rp 20.000</p>
-                  <a href='#' className='add-to-cart'>
+                  <a href={'/'} className='add-to-cart'>
                     Beli Buku
                   </a>
                 </div>
@@ -51,7 +51,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>Burnt Siena</a>
+                    <a href={'/'}>Burnt Siena</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -65,7 +65,7 @@ const Buku = () => {
                   </div>
                   <p>Sara Wisseman</p>
                   <p className='price'>Rp.20.000</p>
-                  <a href='#' className='add-to-cart'>
+                  <a href={'/'} className='add-to-cart'>
                     Add To Cart
                   </a>
                 </div>
@@ -80,7 +80,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>Androcenta</a>
+                    <a href={'/'}>Androcenta</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -94,7 +94,7 @@ const Buku = () => {
                   </div>
                   <p>William S.</p>
                   <p className='price'>Rp. 20.000</p>
-                  <a href='#' className='add-to-cart'>
+                  <a href={'/'} className='add-to-cart'>
                     Add To Cart
                   </a>
                 </div>
@@ -109,7 +109,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>The Winning</a>
+                    <a href={'/'}>The Winning</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -123,7 +123,7 @@ const Buku = () => {
                   </div>
                   <p>Mind Set</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -138,7 +138,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>Dead Water</a>
+                    <a href={'/'}>Dead Water</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -152,7 +152,7 @@ const Buku = () => {
                   </div>
                   <p>Ann Grannger</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -167,7 +167,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>The Fault In our Stars</a>
+                    <a href={'/'}>The Fault In our Stars</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -181,7 +181,7 @@ const Buku = () => {
                   </div>
                   <p>Daniel Abraham</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -196,7 +196,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>The Ruby Of Egypt</a>
+                    <a href={'/'}>The Ruby Of Egypt</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -210,7 +210,7 @@ const Buku = () => {
                   </div>
                   <p>Cat Howard</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -225,7 +225,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>Fableheaven</a>
+                    <a href={'/'}>Fableheaven</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -239,7 +239,7 @@ const Buku = () => {
                   </div>
                   <p>Brandon Hall</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -254,7 +254,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>Fableheaven</a>
+                    <a href={'/'}>Fableheaven</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -268,7 +268,7 @@ const Buku = () => {
                   </div>
                   <p>Brandon Hall</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -283,7 +283,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>Star Trek</a>
+                    <a href={'/'}>Star Trek</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -297,7 +297,7 @@ const Buku = () => {
                   </div>
                   <p>DisAvowed</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -312,7 +312,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>City Of Bones</a>
+                    <a href={'/'}>City Of Bones</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -326,7 +326,7 @@ const Buku = () => {
                   </div>
                   <p>Cassandra Clare</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -341,7 +341,7 @@ const Buku = () => {
                 </figure>
                 <div className='kode-text'>
                   <h3>
-                    <a href='#'>Annette Blair</a>
+                    <a href={'/'}>Annette Blair</a>
                   </h3>
                 </div>
                 <div className='kode-caption'>
@@ -355,7 +355,7 @@ const Buku = () => {
                   </div>
                   <p>Vampire Dragon</p>
                   <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href='#'>
+                  <a className='add-to-cart' href={'/'}>
                     Add To Cart
                   </a>
                 </div>
@@ -368,27 +368,27 @@ const Buku = () => {
           <nav>
             <ul className='pagination'>
               <li>
-                <a href='#' aria-label='Previous'>
+                <a href={'/'} aria-label='Previous'>
                   <span aria-hidden='true'>&laquo;</span>
                 </a>
               </li>
               <li>
-                <a href='#'>1</a>
+                <a href={'/'}>1</a>
               </li>
               <li>
-                <a href='#'>2</a>
+                <a href={'/'}>2</a>
               </li>
               <li>
-                <a href='#'>3</a>
+                <a href={'/'}>3</a>
               </li>
               <li>
-                <a href='#'>4</a>
+                <a href={'/'}>4</a>
               </li>
               <li>
-                <a href='#'>5</a>
+                <a href={'/'}>5</a>
               </li>
               <li>
-                <a href='#' aria-label='Next'>
+                <a href={'/'} aria-label='Next'>
                   <span aria-hidden='true'>&raquo;</span>
                 </a>
               </li>

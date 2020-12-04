@@ -62,7 +62,7 @@ const TentangKami = () => {
                   <div className='col-md-6 col-sm-6'>
                     <div className='kode-team-listing'>
                       <div className='kode-thumb'>
-                        <a href='#'>
+                        <a href={'/'}>
                           <img
                             src='/images/tim-androcenta1.jpg'
                             alt='team androcenta'
@@ -78,22 +78,22 @@ const TentangKami = () => {
                         <div className='social-icon'>
                           <ul>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-facebook'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-twitter'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-google-plus'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-linkedin'></i>
                               </a>
                             </li>
@@ -105,7 +105,7 @@ const TentangKami = () => {
                   <div className='col-md-6 col-sm-6'>
                     <div className='kode-team-listing'>
                       <div className='kode-thumb'>
-                        <a href='#'>
+                        <a href={'/'}>
                           <img
                             src='/images/tim-androcenta2.jpg'
                             alt='team androcenta'
@@ -121,22 +121,22 @@ const TentangKami = () => {
                         <div className='social-icon'>
                           <ul>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-facebook'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-twitter'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-google-plus'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-linkedin'></i>
                               </a>
                             </li>
@@ -148,7 +148,7 @@ const TentangKami = () => {
                   <div className='col-md-6 col-sm-6'>
                     <div className='kode-team-listing'>
                       <div className='kode-thumb'>
-                        <a href='#'>
+                        <a href={'/'}>
                           <img src='images/team-3.png' alt='team androcenta' />
                         </a>
                       </div>
@@ -161,22 +161,22 @@ const TentangKami = () => {
                         <div className='social-icon'>
                           <ul>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-facebook'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-twitter'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-google-plus'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-linkedin'></i>
                               </a>
                             </li>
@@ -188,7 +188,7 @@ const TentangKami = () => {
                   <div className='col-md-6 col-sm-6'>
                     <div className='kode-team-listing'>
                       <div className='kode-thumb'>
-                        <a href='#'>
+                        <a href={'/'}>
                           <img src='/images/team-4.png' alt='team androcenta' />
                         </a>
                       </div>
@@ -201,22 +201,22 @@ const TentangKami = () => {
                         <div className='social-icon'>
                           <ul>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-facebook'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-twitter'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-google-plus'></i>
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href={'/'}>
                                 <i className='fa fa-linkedin'></i>
                               </a>
                             </li>
@@ -288,56 +288,56 @@ const TentangKami = () => {
               <div className='owl-library'>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-1.png' alt='Library' />
                     </a>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-2.png' alt='Library' />
                     </a>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-3.png' alt='Library' />
                     </a>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-4.png' alt='Library' />
                     </a>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-1.png' alt='Library' />
                     </a>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-2.png' alt='Library' />
                     </a>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-3.png' alt='Library' />
                     </a>
                   </div>
                 </div>
                 <div className='item'>
                   <div className='kode-thumb'>
-                    <a href='#'>
+                    <a href={'/'}>
                       <img src='/images/library-4.png' alt='Library' />
                     </a>
                   </div>

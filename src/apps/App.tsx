@@ -10,7 +10,7 @@ import { Switch, Route, withRouter } from 'react-router-dom';
 
 import { LoadingCommon, PrivateCommon } from '../commons';
 
-function App () {
+function App() {
   const [state, setState] = useState({
     userStatus: '',
     userInfo: '',
