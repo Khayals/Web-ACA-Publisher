@@ -66,7 +66,7 @@ const Buku = () => {
                   <p>Sara Wisseman</p>
                   <p className='price'>Rp.20.000</p>
                   <a href={'/'} className='add-to-cart'>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Buku = () => {
                   <p>William S.</p>
                   <p className='price'>Rp. 20.000</p>
                   <a href={'/'} className='add-to-cart'>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const Buku = () => {
                   <p>Mind Set</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -153,7 +153,7 @@ const Buku = () => {
                   <p>Ann Grannger</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -182,7 +182,7 @@ const Buku = () => {
                   <p>Daniel Abraham</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -211,7 +211,7 @@ const Buku = () => {
                   <p>Cat Howard</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -240,7 +240,7 @@ const Buku = () => {
                   <p>Brandon Hall</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -269,7 +269,7 @@ const Buku = () => {
                   <p>Brandon Hall</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -298,7 +298,7 @@ const Buku = () => {
                   <p>DisAvowed</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -327,7 +327,7 @@ const Buku = () => {
                   <p>Cassandra Clare</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -356,7 +356,7 @@ const Buku = () => {
                   <p>Vampire Dragon</p>
                   <p className='price'>Rp 20.000</p>
                   <a className='add-to-cart' href={'/'}>
-                    Add To Cart
+                    Beli Buku
                   </a>
                 </div>
               </div>
@@ -365,7 +365,7 @@ const Buku = () => {
           </div>
 
           {/* PAGINATION START */}
-          <nav>
+          <nav style={{ marginBottom: '10%' }}>
             <ul className='pagination'>
               <li>
                 <a href={'/'} aria-label='Previous'>

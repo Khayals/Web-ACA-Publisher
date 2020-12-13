@@ -1,5 +1,7 @@
 import React from 'react';
-import { HeaderComponent } from '../../components';
+import {
+  HeaderComponent,
+} from '../../components';
 
 const Beranda = () => {
   return (
@@ -11,48 +13,42 @@ const Beranda = () => {
           <li>
             <img src="/images/banner-1.png" alt="" />
             <div className="kode-caption-2">
-              <h5>Are you searching a book...?</h5>
-              <h2>Biggest Library</h2>
+              <h5>Anda Ingin Menjadi Penulis?</h5>
+              <h4 style={{ color: '#fff' }}>ANDROCENTA PUBLISHER</h4>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium dolor emque laudantium, totam rem aperiam.ipsam
-                voluptatem.
-              </p>
+                Buku adalah sihir portabel yang unik dan mungkin satu - satunya sihir sejati yang tidak langsung melepaskan semua rahasianya.
+                </p>
               <div className="caption-btns">
-                <a href="/">See More</a>
-                <a href="/">Buy Now</a>
-              </div>
-            </div>
-          </li>
-          <li>
-            <img src="/images/banner-2.png" alt="" />
-            <div className="kode-caption-2">
-              <h5>Are you searching a book...?</h5>
-              <h2>Biggest Library</h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium dolor emque laudantium, totam rem aperiam.ipsam
-                voluptatem.
-              </p>
-              <div className="caption-btns">
-                <a href="/">See More</a>
-                <a href="/">Buy Now</a>
+                <a href="/tentang-kami">Tentang Kami</a>
+                <a href="/masuk">Upload Karya</a>
               </div>
             </div>
           </li>
           <li>
             <img src="/images/banner-3.png" alt="" />
             <div className="kode-caption-2">
-              <h5>Are you searching a book...?</h5>
-              <h2>Biggest Library</h2>
+              <h5>Kami Menjadi Solusinya...</h5>
+              <h4 style={{ color: '#fff' }}>ANDROCENTA PUBLISHER</h4>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium dolor emque laudantium, totam rem aperiam.ipsam
-                voluptatem.
-              </p>
+                Androcenta Publisher memiliki filosofi yaitu sebagai penerbit yang berambisi menjadi wadah para calon-calon penulis hebat, yakni dua galaksi yang mampu menampung beragam bintang, yakni para penulis-penulis hebat.
+                </p>
               <div className="caption-btns">
-                <a href="/">See More</a>
-                <a href="/">Buy Now</a>
+                <a href="/tentang-kami">Tentang Kami</a>
+                <a href="/masuk">Upload Karya</a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="/images/banner-2.png" alt="" />
+            <div className="kode-caption-2">
+              <h5>Upload Karya Sekarang!</h5>
+              <h4 style={{ color: '#fff' }}>ANDROCENTA PUBLISHER</h4>
+              <p>
+                Buat Anda yang ingin menjadi penulis dan karyanya diterbitkan dengan fasilitas yang lengkap. Yuk upload karya sekarang!
+                </p>
+              <div className="caption-btns">
+                <a href="/tentang-kami">Tentang Kami</a>
+                <a href="/masuk">Upload Karya</a>
               </div>
             </div>
           </li>
@@ -67,17 +63,17 @@ const Beranda = () => {
             <li role="presentation">
               <a href="#Basic" role="tab" data-toggle="tab">
                 Basic
-              </a>
+                </a>
             </li>
             <li role="presentation" className="active">
               <a href="#Author" role="tab" data-toggle="tab">
                 Author
-              </a>
+                </a>
             </li>
             <li role="presentation">
               <a href="#Publications" role="tab" data-toggle="tab">
                 Publications
-              </a>
+                </a>
             </li>
           </ul>
 
@@ -87,16 +83,16 @@ const Beranda = () => {
               <div className="form-container">
                 <div className="row">
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Nama Depan" />
                   </div>
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="Middle Name" />
+                    <input type="text" placeholder="Nama Tengah" />
                   </div>
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="Last Name" />
+                    <input type="text" placeholder="Nama Akhir" />
                   </div>
                   <div className="col-md-3 col-sm-12">
-                    <button>Search Author</button>
+                    <button>Cari Penulis</button>
                   </div>
                 </div>
               </div>
@@ -105,16 +101,16 @@ const Beranda = () => {
               <div className="form-container">
                 <div className="row">
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Nama Depan" />
                   </div>
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="Middle Name" />
+                    <input type="text" placeholder="Nama Tengah" />
                   </div>
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="Last Name" />
+                    <input type="text" placeholder="Nama Akhir" />
                   </div>
                   <div className="col-md-3 col-sm-12">
-                    <button>Search Author</button>
+                    <button>Cari Penulis</button>
                   </div>
                 </div>
               </div>
@@ -123,16 +119,16 @@ const Beranda = () => {
               <div className="form-container">
                 <div className="row">
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Nama Depan" />
                   </div>
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="Middle Name" />
+                    <input type="text" placeholder="Nama Tengah" />
                   </div>
                   <div className="col-md-3 col-sm-4">
-                    <input type="text" placeholder="Last Name" />
+                    <input type="text" placeholder="Nama Akhir" />
                   </div>
                   <div className="col-md-3 col-sm-12">
-                    <button>Search Author</button>
+                    <button>Cari Penulis</button>
                   </div>
                 </div>
               </div>
@@ -148,8 +144,8 @@ const Beranda = () => {
           <div className="container">
             {/* <!--SECTION CONTENT START--> */}
             <div className="section-heading-1">
-              <h2>Welcome to the library</h2>
-              <p>Welcome to the Most Popular Library Today</p>
+              <h2>Selamat Datang di Androcenta Publisher</h2>
+              <p>"Dua galaksi yang mampu menampung beragam bintang"</p>
               <div className="kode-icon">
                 <i className="fa fa-book"></i>
               </div>
@@ -160,60 +156,57 @@ const Beranda = () => {
                 <div className="kode-service-3">
                   <i className="fa fa-gift"></i>
                   <h3>
-                    <a href="/">Ebooks</a>
+                    <a href="/">Ebook</a>
                   </h3>
                   <p>
-                    an electronic version of a printed book that can be read on
-                    a computer.
-                  </p>
+                    Ebook dari buku cetak yang dapat dibaca
+                    di komputer.
+                    </p>
                   <a href="/" className="read-more">
-                    Read More
-                  </a>
+                    Cari Tahu
+                    </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6">
                 <div className="kode-service-3">
                   <i className="fa fa-book"></i>
                   <h3>
-                    <a href="/">audiobooks</a>
+                    <a href="/">Cetak Buku</a>
                   </h3>
                   <p>
-                    an audiocassette or CD recording of a reading of a book,
-                    typically a novel.
-                  </p>
+                    Mencetak buku dengan cover berkualitas, dan provesional
+                    </p>
                   <a href="/" className="read-more">
-                    Read More
-                  </a>
+                    Cari Tahu
+                    </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6">
                 <div className="kode-service-3">
                   <i className="fa fa-clone"></i>
                   <h3>
-                    <a href="/">Magazine</a>
+                    <a href="/">Promosi</a>
                   </h3>
                   <p>
-                    a periodical publication containing articles and
-                    illustrations information.
-                  </p>
+                    Buku anda akan kami promosikan ke seluruh media shopping kami
+                    </p>
                   <a href="/" className="read-more">
-                    Read More
-                  </a>
+                    Cari Tahu
+                    </a>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6">
                 <div className="kode-service-3">
-                  <i className="fa fa-calculator"></i>
+                  <i className="fa fa-truck"></i>
                   <h3>
-                    <a href="/">Teans &amp; Kids</a>
+                    <a href="/">Pengiriman Buku</a>
                   </h3>
                   <p>
-                    the years of a person's age from 13 to 19 and are the kids
-                    and teens.
-                  </p>
+                    Kami pastikan buku anda sampai dengan cepat dan sesuai.
+                    </p>
                   <a href="/" className="read-more">
-                    Read More
-                  </a>
+                    Cari Tahu
+                    </a>
                 </div>
               </div>
             </div>
@@ -225,8 +218,10 @@ const Beranda = () => {
           <div className="container">
             {/* <!--SECTION CONTENT START--> */}
             <div className="section-heading-1 dark-sec">
-              <h2>Our Top Categories</h2>
-              <p>Here are some of the Top Categories of the Books Available.</p>
+              <h2>Kategori Buku Terbaru</h2>
+              <p>
+                Berikut adalah beberapa Kategori Terbaru dari Buku yang Tersedia
+                </p>
               <div className="kode-icon">
                 <i className="fa fa-book"></i>
               </div>
@@ -236,22 +231,22 @@ const Beranda = () => {
               <li role="presentation" className="active">
                 <a href="#Photography" role="tab" data-toggle="tab">
                   Arts &amp; Photography
-                </a>
+                  </a>
               </li>
               <li role="presentation">
                 <a href="#Biographies" role="tab" data-toggle="tab">
                   Biographies &amp; Memoirsa
-                </a>
+                  </a>
               </li>
               <li role="presentation">
                 <a href="#Business" role="tab" data-toggle="tab">
                   Business
-                </a>
+                  </a>
               </li>
               <li role="presentation">
                 <a href="#Computers" role="tab" data-toggle="tab">
                   Computers &amp; Internet
-                </a>
+                  </a>
               </li>
             </ul>
 
@@ -284,8 +279,8 @@ const Beranda = () => {
                         <p>Dr.Machale</p>
                         <p className="price">$224.20</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -311,8 +306,8 @@ const Beranda = () => {
                         <p>Helen Fielding</p>
                         <p className="price">$77.70</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -338,8 +333,8 @@ const Beranda = () => {
                         <p>Sara Wisseman</p>
                         <p className="price">$334.50</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -365,8 +360,8 @@ const Beranda = () => {
                         <p>William S.</p>
                         <p className="price">$24.75</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -394,8 +389,8 @@ const Beranda = () => {
                         <p>Mind Set</p>
                         <p className="price">$447.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -421,8 +416,8 @@ const Beranda = () => {
                         <p>Ann Grannger</p>
                         <p className="price">$777.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -448,8 +443,8 @@ const Beranda = () => {
                         <p>Daniel Abraham</p>
                         <p className="price">$770.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -475,8 +470,8 @@ const Beranda = () => {
                         <p>Cat Howard</p>
                         <p className="price">$996.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -504,8 +499,8 @@ const Beranda = () => {
                         <p>Brandon Hall</p>
                         <p className="price">$542.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -531,8 +526,8 @@ const Beranda = () => {
                         <p>DisAvowed</p>
                         <p className="price">$821.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -558,8 +553,8 @@ const Beranda = () => {
                         <p>Cassandra Clare</p>
                         <p className="price">$362.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -585,8 +580,8 @@ const Beranda = () => {
                         <p>Vampire Dragon</p>
                         <p className="price">$599.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -616,8 +611,8 @@ const Beranda = () => {
                         <p>Dr.Machale</p>
                         <p className="price">$224.20</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -643,8 +638,8 @@ const Beranda = () => {
                         <p>Helen Fielding</p>
                         <p className="price">$77.70</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -670,8 +665,8 @@ const Beranda = () => {
                         <p>Sara Wisseman</p>
                         <p className="price">$334.50</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -697,8 +692,8 @@ const Beranda = () => {
                         <p>William S.</p>
                         <p className="price">$24.75</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -726,8 +721,8 @@ const Beranda = () => {
                         <p>Mind Set</p>
                         <p className="price">$447.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -753,8 +748,8 @@ const Beranda = () => {
                         <p>Ann Grannger</p>
                         <p className="price">$777.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -780,8 +775,8 @@ const Beranda = () => {
                         <p>Daniel Abraham</p>
                         <p className="price">$770.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -807,8 +802,8 @@ const Beranda = () => {
                         <p>Cat Howard</p>
                         <p className="price">$996.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -836,8 +831,8 @@ const Beranda = () => {
                         <p>Brandon Hall</p>
                         <p className="price">$542.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -863,8 +858,8 @@ const Beranda = () => {
                         <p>DisAvowed</p>
                         <p className="price">$821.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -890,8 +885,8 @@ const Beranda = () => {
                         <p>Cassandra Clare</p>
                         <p className="price">$362.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -917,8 +912,8 @@ const Beranda = () => {
                         <p>Vampire Dragon</p>
                         <p className="price">$599.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -948,8 +943,8 @@ const Beranda = () => {
                         <p>Dr.Machale</p>
                         <p className="price">$224.20</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -975,8 +970,8 @@ const Beranda = () => {
                         <p>Helen Fielding</p>
                         <p className="price">$77.70</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1002,8 +997,8 @@ const Beranda = () => {
                         <p>Sara Wisseman</p>
                         <p className="price">$334.50</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1029,8 +1024,8 @@ const Beranda = () => {
                         <p>William S.</p>
                         <p className="price">$24.75</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1058,8 +1053,8 @@ const Beranda = () => {
                         <p>Mind Set</p>
                         <p className="price">$447.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1085,8 +1080,8 @@ const Beranda = () => {
                         <p>Ann Grannger</p>
                         <p className="price">$777.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1112,8 +1107,8 @@ const Beranda = () => {
                         <p>Daniel Abraham</p>
                         <p className="price">$770.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1139,8 +1134,8 @@ const Beranda = () => {
                         <p>Cat Howard</p>
                         <p className="price">$996.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1168,8 +1163,8 @@ const Beranda = () => {
                         <p>Brandon Hall</p>
                         <p className="price">$542.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1195,8 +1190,8 @@ const Beranda = () => {
                         <p>DisAvowed</p>
                         <p className="price">$821.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1222,8 +1217,8 @@ const Beranda = () => {
                         <p>Cassandra Clare</p>
                         <p className="price">$362.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1249,8 +1244,8 @@ const Beranda = () => {
                         <p>Vampire Dragon</p>
                         <p className="price">$599.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1280,8 +1275,8 @@ const Beranda = () => {
                         <p>Dr.Machale</p>
                         <p className="price">$224.20</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1307,8 +1302,8 @@ const Beranda = () => {
                         <p>Helen Fielding</p>
                         <p className="price">$77.70</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1334,8 +1329,8 @@ const Beranda = () => {
                         <p>Sara Wisseman</p>
                         <p className="price">$334.50</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1361,8 +1356,8 @@ const Beranda = () => {
                         <p>William S.</p>
                         <p className="price">$24.75</p>
                         <a href="/" className="add-to-cart">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1390,8 +1385,8 @@ const Beranda = () => {
                         <p>Mind Set</p>
                         <p className="price">$447.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1417,8 +1412,8 @@ const Beranda = () => {
                         <p>Ann Grannger</p>
                         <p className="price">$777.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1444,8 +1439,8 @@ const Beranda = () => {
                         <p>Daniel Abraham</p>
                         <p className="price">$770.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1471,8 +1466,8 @@ const Beranda = () => {
                         <p>Cat Howard</p>
                         <p className="price">$996.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1500,8 +1495,8 @@ const Beranda = () => {
                         <p>Brandon Hall</p>
                         <p className="price">$542.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1527,8 +1522,8 @@ const Beranda = () => {
                         <p>DisAvowed</p>
                         <p className="price">$821.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1554,8 +1549,8 @@ const Beranda = () => {
                         <p>Cassandra Clare</p>
                         <p className="price">$362.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1581,8 +1576,8 @@ const Beranda = () => {
                         <p>Vampire Dragon</p>
                         <p className="price">$599.75</p>
                         <a className="add-to-cart" href="/">
-                          Add To Cart
-                        </a>
+                          Beli Buku
+                          </a>
                       </div>
                     </div>
                     {/* <!--PRODUCT GRID END--> */}
@@ -1595,11 +1590,11 @@ const Beranda = () => {
         {/* <!--VIDEO SECTION START--> */}
         <section className="lib-call-to-action">
           <div className="container">
-            <h2>Checkout Huge Feature lists</h2>
-            <p>Here are some of the Exciting Book Guide Features.</p>
-            <a href="/" className="more">
-              Learn more
-            </a>
+            <h2>Daftar Buku yang Terpublish</h2>
+            <p>Berikut adalah Fitur List Buku yang perlu Anda lihat</p>
+            <a href="/buku" className="more">
+              Cari Tahu
+              </a>
           </div>
         </section>
         {/* <!--VIDEO SECTION END--> */}
@@ -1608,8 +1603,10 @@ const Beranda = () => {
           <div className="container">
             {/* <!--SECTION CONTENT START--> */}
             <div className="section-heading-1">
-              <h2>Most Popular Books</h2>
-              <p>The Most Popular Books Today are available in Book Library</p>
+              <h2>Buku Paling Populer</h2>
+              <p>
+                Buku terpopuler yang masih tersedia di toko kami.
+                </p>
               <div className="kode-icon">
                 <i className="fa fa-book"></i>
               </div>
@@ -1694,9 +1691,9 @@ const Beranda = () => {
                         survey, 95% of employers give hiring preference to
                         college graduates with skills that will enable them to
                         contribute to innovation in the workplace. that will
-                        enable them to contribute to innovation in the workplace
-                        in the city town of the lost vallies.
-                      </p>
+                        enable them to contribute to innovation in the
+                        workplace in the city town of the lost vallies.
+                        </p>
                       <div className="lib-price">
                         <h3>$245</h3>
                         <a href="/">See More</a>
@@ -1723,12 +1720,12 @@ const Beranda = () => {
                         The world's most infamous hacker offers an insider's
                         view of the low-tech threats to high-tech security.
                         Kevin Mitnick's exploits as a cyber-desperado and
-                        fugitive form one of the most exhaustive FBI manhunts in
-                        history and have spawned dozens of articles, books,
-                        films, and documentaries. Since his release from federal
-                        prison, in 1998 that will enable them to contribute to
-                        innovation in the workplace
-                      </p>
+                        fugitive form one of the most exhaustive FBI manhunts
+                        in history and have spawned dozens of articles, books,
+                        films, and documentaries. Since his release from
+                        federal prison, in 1998 that will enable them to
+                        contribute to innovation in the workplace
+                        </p>
                       <div className="lib-price">
                         <h3>$245</h3>
                         <a href="/">See More</a>
@@ -1752,15 +1749,16 @@ const Beranda = () => {
                         <span>☆</span>
                       </div>
                       <p>
-                        Last Days (winner of the British Fantasy Award for Best
-                        Horror Novel of the Year) by Adam Nevill is a Blair
-                        Witch style novel in which a documentary film-maker
-                        undertakes the investigation of a dangerous. When
-                        guerrilla documentary maker, Kyle Freeman, is asked to
-                        shoot a film on the notorious cult known as the Temple
-                        of the Last Days that will enable them to contribute to
-                        innovation in the workplace
-                      </p>
+                        Last Days (winner of the British Fantasy Award for
+                        Best Horror Novel of the Year) by Adam Nevill is a
+                        Blair Witch style novel in which a documentary
+                        film-maker undertakes the investigation of a
+                        dangerous. When guerrilla documentary maker, Kyle
+                        Freeman, is asked to shoot a film on the notorious
+                        cult known as the Temple of the Last Days that will
+                        enable them to contribute to innovation in the
+                        workplace
+                        </p>
                       <div className="lib-price">
                         <h3>$555</h3>
                         <a href="/">See More</a>
@@ -1785,14 +1783,14 @@ const Beranda = () => {
                       </div>
                       <p>
                         Against all odds, Katniss Everdeen has won the annual
-                        Hunger Games with fellow district tribute Peeta Mellark.
-                        But it was a victory won by defiance of the Capitol and
-                        their harsh rules. Katniss and Peeta should be happy.
-                        After all, they have just won for themselves and their
-                        families a life of safety and plenty that will enable
-                        them to contribute to innovation in the workplace
-                        families a life of safety.
-                      </p>
+                        Hunger Games with fellow district tribute Peeta
+                        Mellark. But it was a victory won by defiance of the
+                        Capitol and their harsh rules. Katniss and Peeta
+                        should be happy. After all, they have just won for
+                        themselves and their families a life of safety and
+                        plenty that will enable them to contribute to
+                        innovation in the workplace families a life of safety.
+                        </p>
                       <div className="lib-price">
                         <h3>$751</h3>
                         <a href="/">See More</a>
@@ -1817,14 +1815,14 @@ const Beranda = () => {
                       </div>
                       <p>
                         “You’ve reached the age at which people in this family
-                        cross the border into the magical world. It’s your turn
-                        for an adventure—yes, it’s finally here!” So says Haroun
-                        to his younger brother, twelve-year-old Luka. The
-                        adventure begins one beautiful starry night in the land
-                        of Alifbay, when Luka’s father, Rashid that will enable
-                        them to contribute to innovation in the workplace
-                        families a life of safety.
-                      </p>
+                        cross the border into the magical world. It’s your
+                        turn for an adventure—yes, it’s finally here!” So says
+                        Haroun to his younger brother, twelve-year-old Luka.
+                        The adventure begins one beautiful starry night in the
+                        land of Alifbay, when Luka’s father, Rashid that will
+                        enable them to contribute to innovation in the
+                        workplace families a life of safety.
+                        </p>
                       <div className="lib-price">
                         <h3>$852</h3>
                         <a href="/">See More</a>
@@ -1848,18 +1846,18 @@ const Beranda = () => {
                         <span>☆</span>
                       </div>
                       <p>
-                        Legions of readers entranced by Twilight are hungry for
-                        more and they won't be disappointed. In New Moon,
+                        Legions of readers entranced by Twilight are hungry
+                        for more and they won't be disappointed. In New Moon,
                         Stephenie Meyer delivers another irresistible
-                        combination of romance and suspense with a supernatural
-                        twist. The "star-crossed" lovers theme continues as
-                        Bella and Edward find themselves facing new obstacles
-                        that will enable them to contribute to innovation in the
-                        workplace families a life of safety.
-                      </p>
+                        combination of romance and suspense with a
+                        supernatural twist. The "star-crossed" lovers theme
+                        continues as Bella and Edward find themselves facing
+                        new obstacles that will enable them to contribute to
+                        innovation in the workplace families a life of safety.
+                        </p>
                       <div className="lib-price">
                         <h3>$630</h3>
-                        <a href="/">See More</a>
+                        <a href="/">Cari Tahu</a>
                       </div>
                     </div>
                   </div>
@@ -1876,25 +1874,25 @@ const Beranda = () => {
               <div className="col-md-3 col-sm-6">
                 <div className="count-up">
                   <span className="counter circle">21</span>
-                  <p>Working Year</p>
+                  <p>Submit Karya</p>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6">
                 <div className="count-up">
                   <span className="counter circle">8589</span>
-                  <p>Books Sold</p>
+                  <p>Buku Terjual</p>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6">
                 <div className="count-up">
                   <span className="counter circle">458</span>
-                  <p>Top Author</p>
+                  <p>Total Penulis</p>
                 </div>
               </div>
               <div className="col-md-3 col-sm-6">
                 <div className="count-up">
                   <span className="counter circle">750</span>
-                  <p>Book Published</p>
+                  <p>Buku Cetak</p>
                 </div>
               </div>
             </div>
@@ -1906,8 +1904,8 @@ const Beranda = () => {
           <div className="container">
             {/* <!--SECTION HEADING START--> */}
             <div className="section-heading-1 dark-sec">
-              <h2>Our Testimonials</h2>
-              <p>What our clients say about the books reviews and comments</p>
+              <h2>Testimoni Kami</h2>
+              <p>Apa yang klien kami katakan tentang ulasan dan komentar publisher kami</p>
               <div className="kode-icon">
                 <i className="fa fa-book"></i>
               </div>
@@ -1920,10 +1918,10 @@ const Beranda = () => {
                   <div className="kode-text">
                     <p>
                       I loved thrift books! It's refreshing to buy discounted
-                      books and have them shipped quickly. I could afford to buy
-                      3 copies to hand out to friends also interested in the
-                      topic. Thank you!! Read more
-                    </p>
+                      books and have them shipped quickly. I could afford to
+                      buy 3 copies to hand out to friends also interested in
+                      the topic. Thank you!! Read more
+                      </p>
                   </div>
                   <div className="kode-thumb">
                     <img src="/images/testimonials1.png" alt="" />
@@ -1939,10 +1937,10 @@ const Beranda = () => {
                   <div className="kode-text">
                     <p>
                       You have great prices and the books are in the shape as
-                      stated. Although it takes so long for them to get to their
-                      destination. I have been ordering for years and get great
-                      books in the shape said.
-                    </p>
+                      stated. Although it takes so long for them to get to
+                      their destination. I have been ordering for years and
+                      get great books in the shape said.
+                      </p>
                   </div>
                   <div className="kode-thumb">
                     <img src="/images/testimonials-img4.png" alt="" />
@@ -1958,9 +1956,10 @@ const Beranda = () => {
                   <div className="kode-text">
                     <p>
                       I have made many orders with Thrift Books. I always get
-                      exactly what I order in a timely manner at a great price.
-                      I have had to contact the customer service team once.
-                    </p>
+                      exactly what I order in a timely manner at a great
+                      price. I have had to contact the customer service team
+                      once.
+                      </p>
                   </div>
                   <div className="kode-thumb">
                     <img src="/images/testimonials-img3.png" alt="" />
@@ -1975,10 +1974,10 @@ const Beranda = () => {
                 <div className="lib-testimonial-content">
                   <div className="kode-text">
                     <p>
-                      I couldn't believe the prices for such great books, at no
-                      shipping! I am going to be a good customer at your store!
-                      And, I am telling my Facebook friends about.
-                    </p>
+                      I couldn't believe the prices for such great books, at
+                      no shipping! I am going to be a good customer at your
+                      store! And, I am telling my Facebook friends about.
+                      </p>
                   </div>
                   <div className="kode-thumb">
                     <img src="/images/testimonials-img2.png" alt="" />
@@ -1994,10 +1993,10 @@ const Beranda = () => {
                   <div className="kode-text">
                     <p>
                       ordered 14 books, received 14 books within a week. very
-                      happy with customer support and with the receipt of books.
-                      Keep It Up Good Guide we love you the best books library
-                      available today.
-                    </p>
+                      happy with customer support and with the receipt of
+                      books. Keep It Up Good Guide we love you the best books
+                      library available today.
+                      </p>
                   </div>
                   <div className="kode-thumb">
                     <img src="/images/writer2.png" alt="" />
@@ -2015,7 +2014,7 @@ const Beranda = () => {
                       Thrift Books is the absolute best book seller on the
                       Internet!! Their selection is marvelous, price/shipping
                       unbeatable and timely service is outstanding.
-                    </p>
+                      </p>
                   </div>
                   <div className="kode-thumb">
                     <img src="/images/writer3.png" alt="" />
@@ -2034,11 +2033,10 @@ const Beranda = () => {
           <div className="container">
             {/* <!--SECTION CONTENT START--> */}
             <div className="section-heading-1">
-              <h2>Our Top Authors</h2>
+              <h2>Penulis Terpopuler Kami</h2>
               <p>
-                Here are some of the Top Authors that are available in Books
-                Library
-              </p>
+                Berikut adalah beberapa Penulis Terpopuler di Androcenta Publisher
+                </p>
               <div className="kode-icon">
                 <i className="fa fa-book"></i>
               </div>
@@ -2071,8 +2069,8 @@ const Beranda = () => {
               </div>
               <img src="/images/lib-author.png" alt="" />
               <div className="kode-caption">
-                <h4>Nina Soriya</h4>
-                <p>Author</p>
+                <h4>Kris Azzalea</h4>
+                <p>Penulis</p>
               </div>
             </div>
             <div className="lib-authors">
@@ -2102,8 +2100,8 @@ const Beranda = () => {
               </div>
               <img src="/images/lib-author2.png" alt="" />
               <div className="kode-caption">
-                <h4>Martin</h4>
-                <p>Author</p>
+                <h4>San</h4>
+                <p>Penulis</p>
               </div>
             </div>
             <div className="lib-authors">
@@ -2133,8 +2131,8 @@ const Beranda = () => {
               </div>
               <img src="/images/lib-author3.png" alt="" />
               <div className="kode-caption">
-                <h4>Alexder</h4>
-                <p>Author</p>
+                <h4>San</h4>
+                <p>Penulis</p>
               </div>
             </div>
             <div className="lib-authors">
@@ -2164,8 +2162,8 @@ const Beranda = () => {
               </div>
               <img src="/images/lib-author4.png" alt="" />
               <div className="kode-caption">
-                <h4>Jullia</h4>
-                <p>Author</p>
+                <h4>Kris Azzalea</h4>
+                <p>Penulis</p>
               </div>
             </div>
           </div>
@@ -2177,8 +2175,8 @@ const Beranda = () => {
           <div className="container">
             {/* <!--SECTION HEADING START--> */}
             <div className="section-heading-1 dark-sec">
-              <h2>Become a member</h2>
-              <p>Submit your books idea and you can become an Author.</p>
+              <h2>Menjadi anggota</h2>
+              <p>Kirimkan ide buku Anda dan Anda bisa menjadi seorang Penulis.</p>
               <div className="kode-icon">
                 <i className="fa fa-book"></i>
               </div>
@@ -2188,50 +2186,37 @@ const Beranda = () => {
               <div className="col-md-4 col-sm-4">
                 <div className="input-container">
                   <i className="fa fa-user"></i>
-                  <input type="text" placeholder="Your Name" />
+                  <input type="text" placeholder="Nama Anda" />
                 </div>
               </div>
               <div className="col-md-4 col-sm-4">
                 <div className="input-container">
                   <i className="fa fa-envelope-o"></i>
-                  <input type="text" placeholder="Your Email" />
+                  <input type="text" placeholder="Email Anda" />
                 </div>
               </div>
               <div className="col-md-4 col-sm-4">
                 <div className="input-container">
                   <i className="fa fa-home"></i>
-                  <input type="text" placeholder="Your Address" />
+                  <input type="text" placeholder="Alamat Anda" />
                 </div>
               </div>
               <div className="col-md-4 col-sm-4">
                 <div className="input-container">
                   <i className="fa fa-phone"></i>
-                  <input type="text" placeholder="Your Phone" />
+                  <input type="text" placeholder="Nomor Telephon" />
                 </div>
               </div>
               <div className="col-md-4 col-sm-4">
                 <div className="input-container">
-                  <i className="fa fa-calendar"></i>
-                  <input type="text" placeholder="Your Age" />
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-4">
-                <div className="input-container">
-                  <i className="fa fa-check-square-o"></i>
-                  <select>
-                    <option>Select Package</option>
-                    <option>Package One</option>
-                    <option>Package Two</option>
-                    <option>Package Three</option>
-                    <option>Package Four</option>
-                    <option>Package Five</option>
-                  </select>
+                  <i className="fa fa-key"></i>
+                  <input type="password" placeholder="Password Anda" />
                 </div>
               </div>
               <div className="col-md-12 col-sm-12">
                 <a href="/" className="reg-btn">
-                  Register
-                </a>
+                  Daftar
+                  </a>
               </div>
             </div>
           </div>
@@ -2242,8 +2227,8 @@ const Beranda = () => {
           <div className="container">
             {/* <!--SECTION CONTENT START--> */}
             <div className="section-heading-1">
-              <h2>Subscribe Our Newsletter</h2>
-              <p>Subscribe here with your email us and get up to date.</p>
+              <h2>Ikuti Kami</h2>
+              <p>Jadilah yang pertama tahu event dan penawaran spesial kami.</p>
               <div className="kode-icon">
                 <i className="fa fa-book"></i>
               </div>
@@ -2254,12 +2239,12 @@ const Beranda = () => {
                 <div className="col-md-9 col-sm-8">
                   <div className="input-container">
                     <i className="fa fa-envelope-o"></i>
-                    <input type="text" placeholder="Subscribe us" />
+                    <input type="text" placeholder="Masukkan gmail anda di sini." />
                   </div>
                 </div>
                 <div className="col-md-3 col-sm-4">
                   <button>
-                    Subscribe<i className="fa fa-paper-plane"></i>
+                    Suscribe<i className="fa fa-paper-plane"></i>
                   </button>
                 </div>
               </div>
@@ -2271,15 +2256,12 @@ const Beranda = () => {
           <div className="location-text">
             <i className="fa fa-map-marker"></i>
             <h2>
-              Lorem ipsum
-              <br />
-              Sed ut perspiciatis
-            </h2>
-            <h4>200 capacity</h4>
-            <p>Esse cillum dolore eu fugiat nulla USA</p>
+              Androcenta Publisher
+              </h2>
+            <p>"Dua galaksi yang mampu menampung beragam bintang"</p>
             <span>
-              <i className="fa fa-phone"></i>80.828247.89
-            </span>
+              <i className="fa fa-envelope-o"></i>androcenta.publisher@gmail.com
+              </span>
           </div>
           <div className="kode-thumb"></div>
           <div className="map-canvas" id="map-canvas"></div>
