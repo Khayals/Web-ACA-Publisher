@@ -4,9 +4,25 @@ import {
   FooterComponent,
   HeaderComponent,
   SearchComponent,
+  ListBooksComponent
 } from '../../components';
-
+import { IBookListData } from "../../types"
+import { useBookService } from "../../utils/APIUtils"
 const Buku = () => {
+  const [book, setBook] = React.useState<IBookListData>()
+  const { getAllBooks } = useBookService()
+
+  React.useEffect(() => {
+    const fetchBook = async () => {
+      try {
+        const result = await getAllBooks()
+        setBook(result.data)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+    fetchBook()
+  }, [getAllBooks])
   return (
     <div className='wrapper kode-header-class-3'>
       <HeaderComponent />
@@ -16,352 +32,16 @@ const Buku = () => {
         <div className='container'>
           <div className='kode-product-filter'></div>
           <div className='row'>
-            {/* product grid start */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book5.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>PENDRAGON</h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>PENDRAGON Dr.Machale</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Dr.Machale</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a href={'/'} className='add-to-cart'>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* product grid start */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book7.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>Burnt Siena</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>Art History Mystery</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Sara Wisseman</p>
-                  <p className='price'>Rp.20.000</p>
-                  <a href={'/'} className='add-to-cart'>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* product grid end */}
-            {/* product grid start */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book8.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>Androcenta</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>The Brave Girl</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>William S.</p>
-                  <p className='price'>Rp. 20.000</p>
-                  <a href={'/'} className='add-to-cart'>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* product grid end */}
-            {/* product grid start */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book10.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>The Winning</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>The Winning Story</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Mind Set</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* product grid end */}
-            {/* product grid start */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book8.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>Dead Water</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>Dead Water in Sea</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Ann Grannger</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* PRODUCT GRID START */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book4.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>The Fault In our Stars</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>Paper Towns</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Daniel Abraham</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* PRODUCT GRID START */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book10.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>The Ruby Of Egypt</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>The Ruby Of Egypt</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Cat Howard</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* PRODUCT GRID START */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book4.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>Fableheaven</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>Fableheaven Master</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Brandon Hall</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* PRODUCT GRID START */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book4.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>Fableheaven</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>Fableheaven Master</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Brandon Hall</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* PRODUCT GRID START */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book7.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>Star Trek</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>Star Trek Course</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>DisAvowed</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* PRODUCT GRID START */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book4.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>City Of Bones</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>City Of Bones Lies</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Cassandra Clare</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
-            {/* PRODUCT GRID START */}
-            <div className='col-md-3 col-sm-6'>
-              <div className='best-seller-pro'>
-                <figure>
-                  <img src='/images/book6.png' alt='Buku Androcenta' />
-                </figure>
-                <div className='kode-text'>
-                  <h3>
-                    <a href={'/'}>Annette Blair</a>
-                  </h3>
-                </div>
-                <div className='kode-caption'>
-                  <h3>Annette Blair Maker</h3>
-                  <div className='rating'>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                    <span>☆</span>
-                  </div>
-                  <p>Vampire Dragon</p>
-                  <p className='price'>Rp 20.000</p>
-                  <a className='add-to-cart' href={'/'}>
-                    Beli Buku
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* PRODUCT GRID END */}
+            {book?.data.map((item) => (
+              <ListBooksComponent
+                id={item.id}
+                key={item.id}
+                title={item.title}
+                price={item.price}
+                BookCategory={item.BookCategory}
+                User={item.User}
+              />
+            ))}
           </div>
 
           {/* PAGINATION START */}
