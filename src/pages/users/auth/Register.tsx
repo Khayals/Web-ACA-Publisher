@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import './Login.css';
-// import { login } from '../../../utils/APIUtils';
+import { useAuthService } from '../../../utils/APIUtils';
 import { Form, Input, Button, Card, Icon } from 'antd';
-// import { ACCESS_TOKEN } from '../../../constants';
+import { ACCESS_TOKEN } from '../../../constants';
 import { FormComponentProps } from 'antd/lib/form/Form';
 import {
     HeaderComponent,
@@ -36,7 +36,10 @@ function Register(props: any) {
 
 function RegisterForm(props: any) {
     const [loading, setLoading] = useState(false);
-    const handleSubmit = () => { };
+    const handleSubmit = (e: any) => {
+        e.preventDefault()
+       
+    };
 
     const { getFieldDecorator } = props.form;
     return (

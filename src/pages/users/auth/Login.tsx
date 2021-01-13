@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Login.css';
 import { Link } from 'react-router-dom';
-import { login } from '../../../utils/APIUtils';
+// import { login } from '../../../utils/APIUtils';
 import { Form, Input, Button, Card, notification, Icon } from 'antd';
 import { ACCESS_TOKEN } from '../../../constants';
 import { FormComponentProps } from 'antd/lib/form/Form';
