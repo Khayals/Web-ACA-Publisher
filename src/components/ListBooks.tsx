@@ -1,7 +1,7 @@
 import React from 'react'
 import { Rate } from "antd"
 import { IDataApi } from "../types"
-import { formatNumber, capitalizeFirstLetter } from "../constants/utils"
+import { formatNumber, capitalizeFirstLetter, sortLetter } from "../constants/utils"
 const ListBooks = (props: IDataApi) => {
     return (
         <>
@@ -9,10 +9,10 @@ const ListBooks = (props: IDataApi) => {
             <div className='col-md-3 col-sm-6'>
                 <div className='best-seller-pro'>
                     <figure>
-                        <img src='/images/book4.png' alt={props.title} />
+                        <img src={props.photo} alt={props.title} style={{objectFit: "cover"}} />
                     </figure>
                     <div className='kode-text'>
-                        <h3>{capitalizeFirstLetter(props.title)}</h3>
+                        <h3>{capitalizeFirstLetter(sortLetter(props.title))}</h3>
                     </div>
                     <div className='kode-caption'>
                         <h3>{capitalizeFirstLetter(props.BookCategory.name)}</h3>

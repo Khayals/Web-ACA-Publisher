@@ -63,6 +63,9 @@ function Header() {
                     <a href="/buku" >Buku</a>
                   </li>
                   <li>
+                    <a href="/penulis" >Penulis</a>
+                  </li>
+                  <li>
                     <a href="/tentang-kami">Tentang Kami</a>
                   </li>
                   <li>
@@ -81,6 +84,9 @@ function Header() {
                   </li>
                   <li className="menu-item">
                     <a href="/buku" >Buku</a>
+                  </li>
+                  <li className="menu-item">
+                    <a href="/penulis" >Penulis</a>
                   </li>
                   <li className="menu-item">
                     <a href="/tentang-kami" >Tentang Kami</a>
