@@ -1,4 +1,4 @@
-import { API_BASE_URL, ACCESS_TOKEN } from '../constants';
+import { API_BASE_URL, API_DRIVE, ACCESS_TOKEN } from '../constants';
 import axios from 'axios';
 
 const getRequest = async (options: any) => {
@@ -27,6 +27,13 @@ const postRequest = async (options: any) => {
     })
 }
 
+const postRequstDrive = async (body: FormData) => {
+    const url = API_DRIVE
+    return await fetch(url, {
+        method: "POST",
+        body 
+    })
+}
 
 export const useAuthService = () => {
     const login = () => {}
@@ -49,3 +56,10 @@ export const useBookService = () => {
 	//filter
 	return { getAllBooks };
 };
+
+export const useDriveService = () => {
+    const getUploadDrive = (formData: FormData) => {
+        return postRequstDrive(formData)
+    }
+    return {getUploadDrive}
+}

@@ -1,4 +1,6 @@
 export const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://staging-api-web-aca-publisher.herokuapp.com/api/v1';
+export const API_DRIVE = process.env.REACT_APP_API_DRIVE || "https://staging-gdrive-api-web-aca.herokuapp.com/upload"
+
 export const ACCESS_TOKEN = 'accessToken';
 
 export const NAME_MIN_LENGTH = 4;

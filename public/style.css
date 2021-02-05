@@ -6785,3 +6785,6 @@ nav .pagination {
   float: left;
   width: 100%;
 }
+.font-bold {
+  font-weight: bold;
+}

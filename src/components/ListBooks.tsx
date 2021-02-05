@@ -9,7 +9,7 @@ const ListBooks = (props: IDataApi) => {
             <div className='col-md-3 col-sm-6'>
                 <div className='best-seller-pro'>
                     <figure>
-                        <img src={props.photo} alt={props.title} style={{objectFit: "cover"}} />
+                        <img height={350} src={props.photo} alt={props.title} style={{objectFit: "cover"}} />
                     </figure>
                     <div className='kode-text'>
                         <h3>{capitalizeFirstLetter(sortLetter(props.title))}</h3>

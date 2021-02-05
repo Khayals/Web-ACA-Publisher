@@ -32,6 +32,8 @@ function App() {
     return <div></div>;
   } else {
     return (
+    <>
+      <LoadingCommon />
       <Switch>
         <Route exact path='/' component={BerandaPage} />
         <Route path='/tentang-kami' render={props => <AboutPage />} />
@@ -40,6 +42,7 @@ function App() {
         <Route path='/masuk' component={LoginPage} />
         <Route path='/daftar' component={RegisterPage} />
       </Switch>
+    </>
     );
   }
 }
