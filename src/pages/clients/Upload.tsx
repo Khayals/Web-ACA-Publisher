@@ -1,11 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState } from 'react';
 import {
   BannerComponent,
   FooterComponent,
   HeaderComponent,
   SearchComponent,
 } from '../../components';
-import { Typography, Collapse, Steps, Button, message, Upload as AntdUpload, Icon, Input, Progress, Popconfirm, Card, Row, Col, Modal, List} from "antd"
+import { Typography, Collapse, Button, message, Input, Progress, Card, Modal } from "antd"
 import { useDriveService } from "../../utils/APIUtils"
 
 
@@ -188,8 +188,8 @@ const Upload = () => {
                       onOk={handleUploadModal}
                       onCancel={handleUploadModal}
                     >
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
                       <Input type="file" name="file" onChange={handleUpload} style={{border: "none", marginLeft: "-10px"}} /> 
                       {(progressBar && folderIdAntologi) && <Progress percent={80} /> }
                         <Button onClick={HandleItemAntologi} type="primary" style={{width: "100%", marginTop: "3%"}}>Submit</Button>  
@@ -237,8 +237,8 @@ const Upload = () => {
                       onOk={handleUploadModal}
                       onCancel={handleUploadModal}
                     >
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
                       <Input type="file" name="file" onChange={handleUpload} style={{border: "none", marginLeft: "-10px"}} /> 
                       {(progressBar && folderIdAntologi) && <Progress percent={80} /> }
                         <Button onClick={HandleItemAntologi} type="primary" style={{width: "100%", marginTop: "3%"}}>Submit</Button>  
@@ -288,8 +288,8 @@ const Upload = () => {
                       onOk={handleUploadModal}
                       onCancel={handleUploadModal}
                     >
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
                       <Input type="file" name="file" onChange={handleUpload} style={{border: "none", marginLeft: "-10px"}} /> 
                       {(progressBar && folderIdAntologi) && <Progress percent={80} /> }
                         <Button onClick={HandleItemAntologi} type="primary" style={{width: "100%", marginTop: "3%"}}>Submit</Button>  
@@ -343,8 +343,8 @@ const Upload = () => {
                       onOk={handleUploadModal}
                       onCancel={handleUploadModal}
                     >
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
                       <Input type="file" name="file" onChange={handleUpload} style={{border: "none", marginLeft: "-10px"}} /> 
                       {(progressBar && folderIdBerbayar) && <Progress percent={80} /> }
                         <Button onClick={handleItemBerbayar} type="primary" style={{width: "100%", marginTop: "3%"}}>Submit</Button>  
@@ -394,8 +394,8 @@ const Upload = () => {
                       onOk={handleUploadModal}
                       onCancel={handleUploadModal}
                     >
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
                       <Input type="file" name="file" onChange={handleUpload} style={{border: "none", marginLeft: "-10px"}} /> 
                       {(progressBar && folderIdBerbayar) && <Progress percent={80} /> }
                         <Button onClick={handleItemBerbayar} type="primary" style={{width: "100%", marginTop: "3%"}}>Submit</Button>  
@@ -445,8 +445,8 @@ const Upload = () => {
                       onOk={handleUploadModal}
                       onCancel={handleUploadModal}
                     >
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
-                      <Typography.Text style={{fontWeight: "bold"}}>Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
                       <Input type="file" name="file" onChange={handleUpload} style={{border: "none", marginLeft: "-10px"}} /> 
                       {(progressBar && folderIdBerbayar) && <Progress percent={80} /> }
                         <Button onClick={handleItemBerbayar} type="primary" style={{width: "100%", marginTop: "3%"}}>Submit</Button>  
@@ -549,8 +549,8 @@ const Upload = () => {
                       onOk={handleUploadModal}
                       onCancel={handleUploadModal}
                     >
-                      <Typography.Text style={{fontWeight: "bold"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
-                      <Typography.Text style={{fontWeight: "bold"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Antologi: JudulNaskah_NamaPaket_Komunitas/NamaEvent</Typography.Text> <br/><br/>
+                      <Typography.Text style={{fontWeight: "bold", color: "red"}}>*Bentuk Novel Solo: NamaPenulis_JudulBuku_Paket</Typography.Text> <br/><br/>
                       <Input type="file" name="file" onChange={handleUpload} style={{border: "none", marginLeft: "-10px"}} /> 
                       {(progressBar && folderIdSeleksi) && <Progress percent={80} /> }
                         <Button onClick={handleItemSeleksi} type="primary" style={{width: "100%", marginTop: "3%"}}>Submit</Button>  
